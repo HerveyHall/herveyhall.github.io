@@ -1,0 +1,18 @@
+﻿/* This is the stylesheet for showing my QR code of wechat. 
+ * Author: Hervey Hall
+ */
+
+#wechat{
+	display:none;
+	height:200px;
+	width:200px;
+	text-align:center;
+	vertical-align:middle;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin:-100px;
+	background-color: none; 
+	background-color: transparent; 
+	border-width:0px;
+}

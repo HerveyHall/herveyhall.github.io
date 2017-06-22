@@ -1,0 +1,25 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>Test JSP support</title>
+</head>
+<body>
+<div id="result">
+</div>
+<script>
+   var req = new XMLHttpRequest();
+   req.open("POST","test.jsp",true);
+   req.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+   req.send();
+   req.onreadystatechange = function(){
+   if(req.readyState===4&&req.status===404)
+      var re = req.responseText;
+      if(!re){
+         document.getElementById('result').innerHTML="This server does not support JSP."
+      } else {
+         document.getElementById('result').innerHTML="This server supports JSP."
+      }
+   }
+</script>
+</body>
+</html>

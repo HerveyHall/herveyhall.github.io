@@ -8,7 +8,7 @@
 
 */
 
-var wechat = document.getElementById('hd').getElementsByTagName('section')[0].getElementsByTagName('a')[6];
+var wechat = document.getElementsByClassName('titles')[0].getElementsByTagName('section')[0].getElementsByTagName('a')[6];
 
 wechat.onmouseover = function () {
 

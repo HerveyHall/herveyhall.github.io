@@ -14,10 +14,10 @@ var sendRequest=function(method,source,operation){
    if(request.readyState===4&&request.status/100===2)
       operation(request);
    }
-}﻿
+}
 
 /* Load the content for my own website. */
-sendRequest("GET","/documents/content",(function(request){document.getElementById("main").innerHTML=request.responseText;}));
+//sendRequest("GET","/documents/content",(function(request){document.getElementById("main").innerHTML=request.responseText;}));
 
 /* Load the copyright information of my own website. */
 sendRequest("GET","/documents/copyright",(function(request){document.getElementById("ft").innerHTML=request.responseText;}));

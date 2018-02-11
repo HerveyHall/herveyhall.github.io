@@ -16,8 +16,8 @@ var sendRequest=function(method,source,operation){
    }
 }
 
-/* Load the content for my own website. */
-//sendRequest("GET","/documents/content",(function(request){document.getElementById("main").innerHTML=request.responseText;}));
+/* Load the head of page for my own website. */
+sendRequest("GET","/documents/menu",(function(request){document.getElementById("hd").innerHTML=request.responseText;}));
 
 /* Load the copyright information of my own website. */
 sendRequest("GET","/documents/copyright",(function(request){document.getElementById("ft").innerHTML=request.responseText;}));

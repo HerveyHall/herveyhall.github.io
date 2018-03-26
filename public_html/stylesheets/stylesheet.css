@@ -1,6 +1,10 @@
 ﻿/* This is the stylesheet for showing my own website. 
  * Author: Hervey Hall
  */
+html {
+	overflow-x: hidden;
+}
+ 
 h1 {
 	color: #FFF;
 	font-weight: bolder;

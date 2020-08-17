@@ -1,7 +1,7 @@
 ﻿/** 
 * This file is for hiding the scripts for my own website. 
 *
-* @author Hervey Hall<mail@herveyhall.cf>
+* @author Hervey Hall<herveyhall@foxmail.com>
 */
 
 if(document.body.removeChild)

@@ -1,7 +1,7 @@
 /** 
 * This file is for redirecting to my own website. 
 *
-* @author Hervey Hall<mail@herveyhall.cf>
+* @author Hervey Hall<herveyhall@foxmail.com>
 */
 
 function redir(){

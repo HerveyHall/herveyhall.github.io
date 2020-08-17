@@ -1,7 +1,7 @@
 ﻿/** 
 * This file is for loading the icons of other link for my own website. 
 *
-* @author Hervey Hall<mail@herveyhall.cf>
+* @author Hervey Hall<herveyhall@foxmail.com>
 */
 
 var imgs=document.getElementsByTagName("img");

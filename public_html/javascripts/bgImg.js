@@ -1,7 +1,7 @@
 /**
  * This file is for loading the background images for my own website.
  * 
- * @author Hervey Hall<mail@herveyhall.cf>
+ * @author Hervey Hall<herveyhall@foxmail.com>
  */
 
 // 抓取必应每日图片"https://www.bing.com/HPImageArchive.aspx?n=1&format=js"

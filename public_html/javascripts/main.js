@@ -1,7 +1,7 @@
 ﻿/**
  * This file is the main script for loading my own website.
  * 
- * @author Hervey Hall<mail@herveyhall.cf>
+ * @author Hervey Hall<herveyhall@foxmail.com>
  */
 var _ = function(fieldName, fieldValue) {
 	if (!fieldName) {

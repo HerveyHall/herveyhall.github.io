@@ -1,20 +1,8 @@
 /** 
 * This file is for loading everything for my own website. 
 *
-* @author Hervey Hall<mail@herveyhall.cf>
+* @author Hervey Hall<herveyhall@foxmail.com>
 */
-
-/* The public function for sending HTTP requests. */
-var sendRequest=function(method,source,operation){
-   var request = new XMLHttpRequest();
-   request.open(method,source,true);
-   request.setRequestHeader('Content-type','application/x-www-form-urlencoded');
-   request.send();
-   request.onreadystatechange = function(){
-   if(request.readyState===4&&request.status/100===2)
-      operation(request);
-   }
-}
 
 /* Load the head of page for my own website. */
 sendRequest("GET","/documents/menu",(function(request){document.getElementById("hd").innerHTML=request.responseText;}));

@@ -4,7 +4,7 @@
 
 *
 
-* @author Hervey Hall<mail@herveyhall.cf>
+* @author Hervey Hall<herveyhall@foxmail.com>
 
 */
 

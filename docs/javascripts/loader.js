@@ -8,7 +8,7 @@
 sendRequest("GET","/documents/menu",(function(request){document.getElementById("hd").innerHTML=request.responseText;}));
 
 /* Load the copyright information of my own website. */
-sendRequest("GET","/documents/copyright",(function(request){document.getElementById("ft").innerHTML=request.responseText;}));
+sendRequest("GET","/documents/copyright",(function(request){document.getElementById("ft").innerHTML=request.responseText.replace('${current year}',new Date().getFullYear());}));
 
 /* Load my wechat QR code. */
 sendRequest("GET","/documents/wechat",(function(request){
